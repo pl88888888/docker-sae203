@@ -12,51 +12,32 @@ Ce projet implémente un **serveur WebSocket** simple en **Java** avec l'utilisa
 
 ---
 
-## 🛠️ Fonctionnalités prévues  
+## 💡 Fonctionnalités
 
-❌ **Système de connexion des administrateurs** : Authentification sécurisée pour les administrateurs.  
-✔️  **Système de déconnexion** : Permet aux utilisateurs de se déconnecter proprement.  
-❌ **Facilité de création de serveurs** : Outils ou scripts pour déployer facilement de nouveaux serveurs.  
-✔️ **Support multi-utilisateur** : Permettre à plusieurs utilisateurs de se connecter et d'interagir avec le serveur simultanément.  
+    Interface utilisateur graphique (Swing)
 
-legende :
-⌛ - **En cours de développement**
-❌ - **Non développé**
-✔️ - **Validé**
+    Envoi/réception de messages
+
+    Support multiclient (côté serveur via threads)
+
+    Boutons :
+
+        Envoyer : envoie un message au serveur
+
+        Déconnexion : coupe la connexion TCP
+
+        Redémarrer : tente une reconnexion
+
 
 ---
 
 ## 📁 Structure du projet  
 
-- **`ServeurSimple2.java`** : Implémentation principale du serveur WebSocket.  
+- **`Serveur.java`** : Implémentation principale du serveur WebSocket.  
 - **`ihm/`** : Répertoire destiné à l'interface utilisateur (actuellement en développement).  
 - **`websocket/`** : Contient le client permettant de se connecter au serveur.  
 
 ---
 
-## 📥 Installation  
-
-1. Clonez le dépôt :
-
-  
-       git clone https://github.com/vava408/WebSocket.git
-
-   Accédez au répertoire du projet :
-
-       cd WebSocket
-
-Compilez le projet avec:
-
-    javac  @compile.list
-    
-▶ Utilisation
-
-    Lancez le serveur :
-
-    java ServeurSimple2
-    
-    Lancez le Client :
-
-    java websocket.Client
 
     
