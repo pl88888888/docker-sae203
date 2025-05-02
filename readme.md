@@ -1,4 +1,3 @@
-#https://github.com/pl88888888/docker-sae203/tree/main
 # 🌐 WebSocket
 
 Ce projet implémente un **serveur WebSocket** simple en **Java** avec l'utilisation de **Docker**, permettant la communication en temps réel entre un serveur et des clients.
